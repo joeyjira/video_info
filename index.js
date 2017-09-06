@@ -1,0 +1,9 @@
+const electron = require('electron');
+
+const { app } = electron;
+
+app.on('ready', () => {
+    console.log('====================================');
+    console.log('App is now ready');
+    console.log('====================================');
+});
